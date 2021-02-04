@@ -1,0 +1,15 @@
+h1 {
+  background: gray;
+}
+h2 {
+  color: darkblue;
+  font-size: 60px;
+}
+.first {
+  font-size: 30px;
+  margin: 0;
+}
+.second {
+  font-size: 30px;
+  margin: 0;
+}

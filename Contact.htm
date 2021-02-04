@@ -1,0 +1,15 @@
+{% extends "parent.htm" %}
+{% block content %}
+<h2>Kontakt</h2>
+<ul class="first">
+	<li>email: bw@wp.pl</li>
+	<li>telefon: +48 123456789</li>
+</ul><br>
+<p class="second"><strong>Wyślij wiadomość</strong></p></br>
+<form action="/message" method="POST">
+  <textarea name="message" autocomplete="off"></textarea>
+  <p>
+    <button>Prześlij</button>
+  </p>
+</form>
+{% endblock %}
